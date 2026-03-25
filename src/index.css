@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@layer base {
+body {
+    font-family: "Manrope", sans-serif;
+   
+    }
+.noise-overlay {
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuAEjQT9rJ3MIdSj7ySb1bEGfyYtTXtpPJGQVOlOCusvT5mhL50ngFAD5FLL2jKzaZFNYGcXTpJY7rVnV-m2_YRtCAZDsanYfOc_5kFE1yzhzXQw2bxvLbk5bLPHjj7OTv5SVGMjlFGgj4GsHz_dxCkUCAxQUNqgNCFauIVEI6QWPdSLvQJTcm7i2z2X6TIV2bqCv_SDQsGVN_bC9QUGxWXF6c4Vnmfj_XUXXgwmqF2aTaj9e06XeEtIy2wVoSO3N4H58wTY7c1PAQ);
+    opacity: 0.03;
+    pointer-events: none
+    }
+.grainy-gradient {
+    background: linear-gradient(135deg, #9a442d 0%, #e07a5f 100%)
+    }
+.glass-panel {
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px)
+    }
+.grid-pattern {
+    background-size: 40px 40px;
+    background-image: radial-gradient(circle, #88726d 1px, transparent 1px);
+    opacity: 0.1
+    }
+.masonry-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-auto-rows: 10px
+    }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
