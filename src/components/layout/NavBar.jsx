@@ -33,8 +33,8 @@ const Navbar = () => {
                 }`}
         >
             <div className="flex justify-between items-center px-8 py-6 max-w-360 mx-auto font-['Manrope'] font-medium tracking-tight text-sm">
-                <Link to="/" className="text-xl font-bold tracking-tighter text-[#2c2c2c] dark:text-[#fafaf5]">
-                    The Digital Curator
+                <Link to="/" className="text-3xl playwrite-dk-uloopet-guides-regular tracking-tighter text-[#2c2c2c] dark:text-[#fafaf5]">
+                    <span className='text-black/50'>Digital </span> <span className='text-[#9a442d]'>Curator</span>
                 </Link>
 
                 <div className="hidden md:flex items-center gap-10">
@@ -53,7 +53,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="flex items-center gap-6">
-                    <button className="grainy-gradient text-white px-6 py-2.5 rounded-xl font-medium text-sm transition-transform active:scale-95">
+                    <button className="max-sm:hidden grainy-gradient text-white px-6 py-2.5 rounded-xl font-medium text-sm transition-transform active:scale-95">
                         Book a Viewing
                     </button>
                     <div className="hidden max-sm:block">

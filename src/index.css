@@ -1,9 +1,17 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet+Guides&display=swap');
+
 @layer base {
 body {
     font-family: "Manrope", sans-serif;
    
     }
+.playwrite-dk-uloopet-guides-regular {
+  font-family: "Playwrite DK Uloopet Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .noise-overlay {
     background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuAEjQT9rJ3MIdSj7ySb1bEGfyYtTXtpPJGQVOlOCusvT5mhL50ngFAD5FLL2jKzaZFNYGcXTpJY7rVnV-m2_YRtCAZDsanYfOc_5kFE1yzhzXQw2bxvLbk5bLPHjj7OTv5SVGMjlFGgj4GsHz_dxCkUCAxQUNqgNCFauIVEI6QWPdSLvQJTcm7i2z2X6TIV2bqCv_SDQsGVN_bC9QUGxWXF6c4Vnmfj_XUXXgwmqF2aTaj9e06XeEtIy2wVoSO3N4H58wTY7c1PAQ);
     opacity: 0.03;

@@ -54,6 +54,7 @@ export default {
               },
                fontFamily: {
                 "headline": ["Manrope"],
+                "logo":['Playwrite DK Uloopet Guides'],
                 "body": ["Manrope"],
                 "label": ["Inter"]
               },
